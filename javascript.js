@@ -24,7 +24,7 @@ function botaoTentar(event) {
     const inputNumber = document.querySelector("#inputNumber")
     
     if(inputNumber.value < 0 || inputNumber.value > 10) {
-        alert("O número está entre 0 e 10")
+        alert("O número digitado não está entre 0 e 10")
         numTentativas -= 1
     }
     else if(inputNumber.value == "" || inputNumber.value == null)  {
